@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
  
 const uploadquest=()=>{
-axios.get('https://onlinequizapp-m0hn.onrender.com/questions')
+axios.get('https://onlinetestbackend-66yo.onrender.com/questions')
       .then((res)=>{
           var   questions1=res.data
              console.log(questions1);
@@ -191,7 +191,7 @@ function Quiz() {
       teststatus:1,
       useranswers:useranswers
     }
-     axios.post('https://onlinequizapp-m0hn.onrender.com/result',result)
+     axios.post('https://onlinetestbackend-66yo.onrender.com/result',result)
         .then((respo)=>{
           console.log(respo);
           removeUserData();

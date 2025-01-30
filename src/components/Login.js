@@ -26,7 +26,7 @@ export default function LoginPage() {
             phone:phonenumber
         }
         console.log(email,phonenumber)
-       await axios.post('https://onlinequizapp-m0hn.onrender.com/student',data)
+       await axios.post('https://onlinetestbackend-66yo.onrender.com/student',data)
        .then((response)=>{
         console.log(response)
         
