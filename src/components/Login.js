@@ -15,7 +15,7 @@ export default function LoginPage() {
       if(userdata){
         navigate('/quiz');
        }
-    },[]);
+    },[userdata]);
      
     
     const handlelogin=async(e)=>{
