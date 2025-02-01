@@ -6,7 +6,7 @@ export const storeUserData = (data)=>{
 }
 
 export const storeexamstate=(state)=>{
-    localStorage.setItem('examstatus',state)
+   return localStorage.setItem('examstatus',state)
 }
 
 export const getexamstate = ()=>{
